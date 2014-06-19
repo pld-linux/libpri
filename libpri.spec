@@ -1,12 +1,12 @@
 Summary:	ISDN PRI channel interface library
 Summary(pl.UTF-8):	Biblioteka interfejsu do kanałów PRI ISDN
 Name:		libpri
-Version:	1.4.14
-Release:	3
+Version:	1.4.15
+Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://downloads.digium.com/pub/libpri/%{name}-%{version}.tar.gz
-# Source0-md5:	8c581d8ebeff4c23cc498d71b94ca299
+# Source0-md5:	206fbcf014ad85bf6613f169ca425e7f
 URL:		http://www.asterisk.org/
 BuildRequires:	dahdi-tools-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
