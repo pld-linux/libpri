@@ -5,7 +5,7 @@ Version:	1.4.15
 Release:	1
 License:	GPL v2
 Group:		Libraries
-Source0:	http://downloads.digium.com/pub/libpri/%{name}-%{version}.tar.gz
+Source0:	http://downloads.asterisk.org/pub/telephony/libpri/%{name}-%{version}.tar.gz
 # Source0-md5:	206fbcf014ad85bf6613f169ca425e7f
 URL:		http://www.asterisk.org/
 BuildRequires:	dahdi-tools-devel
@@ -18,16 +18,16 @@ ISDN PRI channel interface library.
 Biblioteka interfejsu do kanałów PRI ISDN.
 
 %package devel
-Summary:	Header files and development documentation for libpri
-Summary(pl.UTF-8):	Pliki nagłówkowe i dokumentacja do libpri
+Summary:	Header files for libpri library
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libpri
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
-Header files and development documentation for libpri.
+Header files for libpri library.
 
 %description devel -l pl.UTF-8
-Pliki nagłówkowe i dokumentacja do libpri.
+Pliki nagłówkowe biblioteki libpri.
 
 %package static
 Summary:	libpri static library
